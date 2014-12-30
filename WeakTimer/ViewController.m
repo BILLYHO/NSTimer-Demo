@@ -38,7 +38,7 @@
 {
 	[_subview removeFromSuperview];
 	_subview = nil;
-	[self.view addSubview:_subview];
+	//[self.view addSubview:_subview];
 }
 
 - (void)didReceiveMemoryWarning {

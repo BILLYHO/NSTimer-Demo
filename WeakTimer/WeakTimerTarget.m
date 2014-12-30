@@ -41,4 +41,9 @@
 	}
 }
 
+- (void)dealloc
+{
+	NSLog(@"weak target dealloc");
+}
+
 @end

@@ -34,7 +34,8 @@
 		//timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(showTime) userInfo:nil repeats:YES];
 		
 		WeakTimerTarget *target = [[WeakTimerTarget alloc]initWithTarget:self selector:@selector(showTime)];
-		_timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:target selector:@selector(timerDidFire:) userInfo:nil repeats:YES];
+		//_timer =
+		[NSTimer scheduledTimerWithTimeInterval:1.0f target:target selector:@selector(timerDidFire:) userInfo:nil repeats:YES];
 	}
 	return self;
 }
